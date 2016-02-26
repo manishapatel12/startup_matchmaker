@@ -164,7 +164,13 @@ footer {
 
 .btn {
    padding: 0px; 
-}   
+} 
+
+.developer_profile {
+  background-color: gray;
+  border: 5px solid white;
+  height: 300px;
+}  
 
 /*-------------------------------------------------------------*/
 /*                        Media Queries                        */
