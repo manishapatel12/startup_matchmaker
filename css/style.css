@@ -233,6 +233,18 @@ h1 {
   line-height: 36px;
 }  
 
+.navbar-toggle .icon-bar {
+  background-color: yellow ! important;
+}
+
+.navbar-toggle {
+  border-color: yellow ! important;
+}
+
+  #sign_up {
+    padding: 10px 60px;
+  }
+
 
 /*-------------------------------------------------------------*/
 /*                        Media Queries                        */
@@ -263,6 +275,10 @@ h1 {
   .create_find a {
     padding: 10px 10px;
   }
+
+  #sign_up {
+    padding: 10px 40px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -286,3 +302,32 @@ h1 {
   }
 
 }
+
+
+@media (max-width: 762px) {
+  .quotes {
+    display: none;
+  }
+
+  .create_profile >p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .create_profile p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .create_profile a {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+
+  .create_find a {
+    padding: 10px 80px;
+  }
+
+  #sign_up {
+    padding: 10px 120px;
+  }
+ }
