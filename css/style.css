@@ -24,6 +24,10 @@ body {
   background-color: black;
 }
 
+.navbar .container {
+  margin: 0px 10px;
+}
+
 header {
   background-color: black;
   height:75px;
@@ -167,14 +171,78 @@ footer {
 } 
 
 .developer_profile {
-  background-color: gray;
-  border: 5px solid white;
+  background-color: white;
+  border: 5px solid #d3d3d3;
   height: 300px;
-}  
+  /*margin-top: 50px;*/
+} 
+
+.developer_container {
+  margin-top: 50px;
+  /*margin-left: 18%;*/
+} 
+
+.designer {
+  background-color: #d3d3d3;
+}
+
+.html_css_js {
+  background-color: gray;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.contact {
+  color: black;
+  background-color: yellow;
+  padding: 5px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.designer_main {
+  background-color: #d3d3d3;
+  color: gray;
+  border: 5px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+}
+
+.some_person {
+  /*font-weight: bold;*/
+  font-size: 16px;
+}
 
 /*-------------------------------------------------------------*/
 /*                        Media Queries                        */
 /*-------------------------------------------------------------*/
+
+
+@media (max-width: @screen-xs-max) { 
+    .create_profile {
+    margin: 10px;
+  }
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+  .developer_container {
+  margin-left: 10%;
+  }   
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
+  .developer_container {
+  margin-left: 15%;
+  } 
+ }
+/*@media (min-width: @screen-lg-min) {
+  .developer_container {
+  margin-left: 18%;
+  } 
+ }*/
+
 
 @media (min-width: 1200px) {
 
@@ -192,4 +260,9 @@ footer {
   .section_profile_dev_designer {
       margin-left: 150px;
   }
+
+  .developer_container {
+  margin-left: 18%;
+  } 
+
 }
